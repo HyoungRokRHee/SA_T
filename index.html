@@ -3,54 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>축하합니다!!!</title>
+    <title>이미지 꽉 차게</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #ffffff;
             margin: 0;
             padding: 0;
-        }
-        .container {
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             height: 100vh;
+            background-color: #f4f4f4;
         }
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-        .image {
-            margin: 20px 0;
-        }
+
         img {
-            width: 200px;
+            max-width: 100%;
+            max-height: 100%;
+            width: auto;
             height: auto;
-        }
-        .contact {
-            margin-top: 20px;
-            font-size: 1.1em;
+            object-fit: contain;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>축하합니다!!!</h1>
-        <p>컴냥이 ‘T’를 찾아주셨습니다</p>
-        <p>덕분에 연구실이 활기차게 돌아갈 수 있게 되었습니다!!</p>
-        <div class="image">
-            <img src="T.png" alt="컴냥이 T">
-        </div>
-        <p class="contact">해당 번호로 학과 이름 보내주세요</p>
-        <p class="contact">010-3078-0110</p>
-        <p>감사합니다!!</p>
-    </div>
+    <img src="G.png" alt="이미지">
 </body>
 </html>
